@@ -21,9 +21,9 @@ out/
 target/
 .idea_modules/
 .gradle/
-build.gradle
-gradle/wrapper/gradle-wrapper.properties
-gradlew
-gradlew.bat
-settings.gradle
-src/
+#build.gradle
+#gradle/wrapper/gradle-wrapper.properties
+#gradlew
+#gradlew.bat
+#settings.gradle
+#src/
