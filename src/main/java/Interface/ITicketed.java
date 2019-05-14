@@ -1,6 +1,6 @@
 package Interface;
 
-import sun.reflect.generics.visitor.Visitor;
+import Visitor.Visitor;
 
 public interface ITicketed {
     double defaultPrice();

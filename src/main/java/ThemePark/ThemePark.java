@@ -1,3 +1,5 @@
+package ThemePark;
+
 public class ThemePark {
 
     private String name;

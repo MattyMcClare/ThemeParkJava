@@ -1,3 +1,4 @@
+import ThemePark.ThemePark;
 import org.junit.Before;
 import org.junit.Test;
 
