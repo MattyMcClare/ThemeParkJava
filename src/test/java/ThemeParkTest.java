@@ -35,4 +35,11 @@ public class ThemeParkTest {
         themePark.addReview(playground);
         assertEquals(1, themePark.reviewsCount());
     }
+
+    @Test
+    public void canHaveAttractions(){
+        assertEquals(0, themePark.attractionsCount());
+        themePark.addAttraction(rollercoster);
+        assertEquals(1, themePark.attractionsCount());
+    }
 }
