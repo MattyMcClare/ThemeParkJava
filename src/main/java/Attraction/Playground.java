@@ -1,6 +1,9 @@
 package Attraction;
 
-public class Playground extends Attraction {
+import Interface.ISecurity;
+import Visitor.Visitor;
+
+public class Playground extends Attraction implements ISecurity {
 
     private int minAge;
 
@@ -11,5 +14,10 @@ public class Playground extends Attraction {
 
     public int getMinAge() {
         return minAge;
+    }
+
+    @Override
+    public boolean isAllowedTo(Visitor visitor) {
+        return visitor.getAge() >= minAge;
     }
 }
