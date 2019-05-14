@@ -4,7 +4,6 @@ import ThemePark.ThemePark;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.util.ArrayList;
 
 import static org.junit.Assert.assertEquals;
 
@@ -36,6 +35,4 @@ public class ThemeParkTest {
         themePark.addReview(playground);
         assertEquals(1, themePark.reviewsCount());
     }
-
-
 }
